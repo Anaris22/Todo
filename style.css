@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  /* box-sizing: border-box; */
+  position: relative;
+  width: 336px;
+  /* height: 536px; */
+  /* padding: 20px; */
+  /* left: 408px;
+  top: 232px; */
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.todo {
+  /* position: absolute; */
+  width: 198px;
+  height: 34px;
+  left: 477px;
+  top: 273px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+.sapka {
+  /* position: absolute; */
+  width: 336px;
+  height: 28px;
+  left: 408px;
+  top: 232px;
+  border-radius: 10px 10px 0 0;
+  background: #ffdc40;
+}
+.filtr1 {
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  top: 80px;
+  right: 20px;
+}
+.extext {
+  /* position: absolute; */
+  width: 286px;
+  margin: 0 auto;
+  /* height: 60px; */
+  left: 436px;
+  top: 349px;
+}
+input {
+  width: 270px;
+  height: 30px;
+  border-radius: 10px;
+}
+.knopka {
+  /* position: absolute; */
+  margin-left: 60px;
+  width: 150px;
+  height: 42px;
+  left: 50px;
+  top: 50px;
+  background: #833ae0;
+  border-radius: 71px;
+}
+
+
+.checkbox {
+  display: inline;
+  width: 20px;
+  height: 20px;
+}
+
+li {
+  margin-left: 50px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.filtered {
+  filter: invert(100%) sepia(1%) saturate(351%) hue-rotate(328deg) brightness(96%) contrast(80%);
+}
+
+.delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #c4c4c4 solid 1px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #833ae0;
+}
